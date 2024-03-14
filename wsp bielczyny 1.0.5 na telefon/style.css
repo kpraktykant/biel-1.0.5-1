@@ -267,3 +267,29 @@ h1.infospotk
     opacity: 1;
     background-color: #9ea2a6;
 }
+
+.kontakty
+{
+    width: 50%;
+    height: 198px;
+    float: left;
+    border-bottom: 2px solid black;
+    border-right: 1px solid black;
+}
+
+.kontaktadm
+{
+    width: 50%;
+    height: 198px;
+    float: left;
+    border-bottom: 2px solid black;
+    border-left: 1px solid black;
+}
+
+.kontaktp
+{
+    color: #efefef;
+    text-align: left;
+    padding: 15px;
+    font-size: 15px; 
+}
