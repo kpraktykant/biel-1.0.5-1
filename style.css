@@ -182,23 +182,28 @@ h1.infospotk
 .zdj1
 {
     margin-left: 28px;
+    display: inline-block;
 }
 .zdj2
 {
     margin-left: 28px;
+    display: inline-block;
 }
 .zdj3
 {
     margin-left: 28px;
+    display: inline-block;
 }
 .zdj4
 {
     margin-left: 28px;
+    display: inline-block;
 }
 
 .zmianyreg
 {
     margin-left: 25px;
+    display: inline-block;
 }
 
 .listazmianyreg > ul > li
