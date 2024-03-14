@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<meta name="description" content="Strona Wspólnoty" />
+	<meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/fontello.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="timer.js"></script>
+    <script src="jquery.scrollTo-master/jquery.scrollTo.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <script>
+        jQuery(function($)
+        {
+            $.scrollTo(0);
+    
+            $('#link2').click(function() { $.scrollTo($('#akt'), 500); });
+            $('.scrollup').click(function() { $.scrollTo($('body'), 700); });
+        }
+        );	
+        $(window).scroll(function()
+        {
+            if ($(this).scrollTop()>300) $('.scrollup').fadeIn(); 
+            else $('.scrollup').fadeOut();	
+        }
+        );      
+    </script>
+</head>
+
+<body onload=odliczanie()>
+   <main>
+        <header>
+            <a href="#" class="scrollup"></a>
+            <nav id="topnav">
+                <div class="categs" style="width: 1000px; margin-left: auto; margin-right: auto;">
+                    <a href="index.html"><div class="sglownadiv" style="width: 20%; height: 60px; float: left; border-left: 2px solid black; padding-top: 15px; font-size: 20px; color: #d5d7db;"><i class="icon-home">Strona Glowna</i></div></a>
+
+                    <a href="aktualnosci.html"><div class="aktualnoscidiv" style="width: 20%; height: 60px; float: left; border-left: 2px solid black; padding-top: 15px; font-size: 20px; color: #d5d7db;"><i class="icon-home">Aktualności</i></div></a>
+
+                    <a href="terminy-spotkan.html"><div class="terspotkandiv" style="width: 20%; height: 60px; float: left; border-left: 2px solid black; padding-top: 15px; font-size: 20px; color: #d5d7db;"><i class="icon-clipboard">Terminy Spotkań</i></div></a>
+
+                    <a href="ciekawostki.html"><div class="ciekawostkidiv" style="width: 20%; height: 60px; float: left; border-left: 2px solid black; padding-top: 15px; font-size: 20px; color: #d5d7db;"><i class="icon-lightbulb">Ciekawostki</i></div></a>
+
+                    <a href="galeria.html"><div class="galeriadiv" style="width: 20%; height: 60px; float: left; border-left: 2px solid black; border-right: 2px solid black; padding-top: 15px; font-size: 20px; color: #d5d7db;"><i class="icon-picture">Galeria</i></div></a>
+                        
+                    <div style="clear:both"></div>
+                </div>
+            </nav>
+            <div id="margin"></div>
+            <div class="header" style="text-align: center; height: 50%; margin-top: 5px;"><h1 class="logo" style=" float: left; width: 85%;">Mała Wspólnota Mieszkaniowa w Bielczynach</h1><div id="zegar" style="float: left; width: 15%; margin-top: 5px; font-size: 30px; font-weight: 800;">12:00:00</div></div>
+            <div style="clear: both;"></div>
+        </header>
+
+        <section class="powitanie">
+            <p><i class="icon-down"></i>Ciekawostki<i class="icon-down"></i></p>
+        </section>
+        
+
+
+        <article>
+            <section class="ciekawostkih">
+                <h4>PRZYKŁADOWY WPIS</h4>
+            </section>
+            <section class="ciekawostki">
+                <p>covel sem bibendum, a tincidunt sem malesuncidunt sem malesuncidunt sem malesuncidunt sem malesuncidunt sem malesuncidunt sem malesuncidunt sem malesuada. Suspendisse sodales et turpis vel tincidunt. In hac habitasse platea dictumst. Mauris iaculis congue orci, quis luctus ante vestibulum eget. Cras euismod felis in lectus dictum, quis iaculis quam suscipit. Nam sollicitudin non turpis tempus tempus.l sem bibendum, a tincidunt sem malesuada. Suspendisse sodales et turpis vel tincidunt. In hac habitasse platea dictumst. Mauris iaculis congue orci, quis luctus ante vestibulum eget. Cras euismod felis in lectus dictum, quis iaculis quam suscipit. Nam sollicitudin non turpis tempu</p>
+            </section>
+            <h1>--------</h1>
+            <div style="clear: both;"></div>
+        </article>
+
+        <article>
+            <section class="ciekawostkih">
+                <h4>PRZYKŁADOWY WPIS#2</h4>
+            </section>
+            <section class="ciekawostki">
+                <p>covel sem bibendum, a tincidunt sem malesuncidunt sem malesuncidunt sem malcovel sem bibendum, a tincidunt sem malesuncidunt sem malesuncidunt sem malcovel sem bibendum, a tincidunt sem malesuncidunt sem malesuncidunt sem malcovel sem bibendum, a tincidunt sem malesuncidunt sem malesuncidunt sem malcovel sem bibendum, a tincidunt sem malesuncidunt sem malesuncidunt sem mal</p>
+            </section>
+            <h1>--------</h1>
+            <div style="clear: both;"></div>
+        </article>
+
+        <article>
+            <a class="weatherwidget-io" href="https://forecast7.com/pl/53d2118d57/bielczyny/" data-label_1="BIELCZYNY" data-label_2="POGODA" data-theme="original" style="border-top: 2px solid black;">BIELCZYNY POGODA</a>
+            <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+        </article>
+
+    </main>
+
+    <!--KOMPLETNY REWORK FOOTER-->
+    <footer>
+        <div class="footerborder"></div>
+        <div class="foot" style="width: 100%; text-align: center; background-color: #8d9196">
+            <div class="kontakty" style="width: 50%; height: 198px; float: left; border-bottom: 2px solid black;border-right: 1px solid black;">
+                <p class="kontaktp" style="color: #efefef; text-align: left; padding: 20px; font-size: 20px; ">Przedstawiciel wspólnoty:<br/>
+                <i class="icon-phone"></i>Telefon: +48 000 000 000<br/>
+                <i class="icon-mail-alt"></i>E-mail: przyklad@domena.com</p>
+            </div>
+
+            <div class="kontaktadm" style="width: 50%; height: 198px; float: left; border-bottom: 2px solid black; border-left: 1px solid black;">
+                <p class="kontaktp" style="color: #efefef; text-align: left; padding: 20px; font-size: 20px; ">Administrator:<br/>
+                <i class="icon-phone"></i>Telefon: +48 000 000 000<br/>
+                <i class="icon-mail-alt"></i>E-mail: przyklad@domena.com</p>
+            </div>
+
+            <div style="clear: both;"></div>
+
+            <div class="prawaautorskie" style="width: 100%; height: 200x; color: white;">Wszelkie prawa zastrzeżone &copy;</div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
