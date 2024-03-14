@@ -21,7 +21,7 @@ a:visited
 {
     background-color: #8d9196;
     text-align: center;
-    width: 100%;
+    width: 90%;
 }
 
 .menu
@@ -63,6 +63,7 @@ a:visited
 #margin
 {
     border-top: 3px solid black;
+    width: 90%;
 }
 
 #zegar
