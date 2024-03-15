@@ -21,7 +21,7 @@ a:visited
 {
     background-color: #8d9196;
     text-align: center;
-    width: 90%;
+    width: 100%
 }
 
 .menu
@@ -176,28 +176,73 @@ h1.infospotk
     margin-bottom: 10px;
     margin-top: 40px;
     margin-right: 40px;
-    float: left;
 }
 
 .zdj1
 {
-    margin-left: 28px;
+    transition:transform 0.25s ease;
+    border: 2px solid black;
+    margin: 18px;
     display: inline-block;
 }
 .zdj2
 {
-    margin-left: 28px;
+    transition:transform 0.25s ease;
+    margin: 18px;
+    border: 2px solid black;
     display: inline-block;
 }
 .zdj3
 {
-    margin-left: 28px;
+    transition:transform 0.25s ease;
+    border: 2px solid black;
+    margin: 18px;
     display: inline-block;
 }
 .zdj4
 {
-    margin-left: 28px;
+    transition:transform 0.25s ease;
+    border: 2px solid black;
+    margin: 18px;
     display: inline-block;
+}
+.zdj5
+{
+    transition:transform 0.25s ease;
+    border: 2px solid black;
+    margin: 18px;
+    display: inline-block;
+}
+.zdj6
+{
+    transition:transform 0.25s ease;
+    border: 2px solid black;
+    margin: 18px;
+    display: inline-block;
+}
+.zdj1:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+.zdj2:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+.zdj3:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+.zdj4:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+.zdj5:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
+}
+.zdj6:hover {
+    -webkit-transform:scale(1.5);
+    transform:scale(1.5);
 }
 
 .zmianyreg
@@ -273,3 +318,5 @@ h1.infospotk
     opacity: 1;
     background-color: #9ea2a6;
 }
+
+
