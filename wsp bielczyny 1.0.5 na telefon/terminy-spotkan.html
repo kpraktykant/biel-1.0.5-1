@@ -25,24 +25,24 @@
         jQuery(function($)
         {
             $.scrollTo(0);
-    
+
             $('#link2').click(function() { $.scrollTo($('#akt'), 500); });
             $('.scrollup').click(function() { $.scrollTo($('body'), 700); });
         }
-        );	
+        );
         $(window).scroll(function()
         {
-            if ($(this).scrollTop()>300) $('.scrollup').fadeIn(); 
-            else $('.scrollup').fadeOut();	
+            if ($(this).scrollTop()>300) $('.scrollup').fadeIn();
+            else $('.scrollup').fadeOut();
         }
         );
-        
+
     </script>
 </head>
 
 <body onload=odliczanie()>
     <main>
-        <!--REWORK HEADER NA TELEFON-->
+        <!--REWORK_HEADER_NA_TELEFON-->
         <header>
             <a href="#" class="scrollup"></a>
             <nav id="topnav">
@@ -94,7 +94,7 @@
 
     </main>
 
-    <!--KOMPLETNY REWORK FOOTER NA TELEFON-->
+    <!--KOMPLETNY_REWORK_FOOTER_NA_TELEFON-->
     <footer>
         <div class="footerborder"></div>
         <div class="foot" style="width: 100%; text-align: center; background-color: #a3d2a0">
