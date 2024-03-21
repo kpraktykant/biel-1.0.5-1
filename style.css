@@ -71,17 +71,16 @@ a:visited
 }
 
 
-.powitanie
+#powitanie
 {
+    width: fit-content;
+    height: fit-content;
     font-size: 56px;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 54px;
+    margin-left: 25px;
     font-weight: bold;
 
 }
+
 
 .scrollup
 {
@@ -101,12 +100,15 @@ a:visited
     text-decoration: overline;
 }
 
-.opisakt
+.opis
 {
+    width: 450px;
+    height: fit-content;
     text-align: left;
     margin-left: 15px;
     margin-bottom: 10px;
     font-size: 20px;
+    word-wrap: break-word;
 }
 
 .data
@@ -122,11 +124,11 @@ border-bottom: 3px solid black;
 width: 273px;
 }
 
-.akt-img
+.img
 {
-    text-align: center;
-    margin-right: 10px;
-    margin-bottom: 50px;
+    max-width: 450px;
+    max-height: 450px;
+    border: 2px solid black;
 }
 
 .terspo
@@ -161,10 +163,10 @@ width: 273px;
 }
 
 
-h1.infospotk
+h2.infospotk
 {
-    text-align: center;
-    margin-left: 50px;
+    text-align: left;
+    margin-left: 10px;
     margin-right: auto;
     margin-top: 7px;
 }
@@ -319,3 +321,26 @@ h1.infospotk
     background-color: #a3d2a0;
 }
 
+
+
+
+
+
+
+/*KLASY_INNE*/
+
+
+.blank
+{
+    width: 100%;
+}
+
+.margin
+{
+    width: 100%;
+    border-bottom: 2px solid #d3d3d3;
+    margin: 15px 0;
+    opacity: 0.7;
+}
+
+/*-------------------*/
